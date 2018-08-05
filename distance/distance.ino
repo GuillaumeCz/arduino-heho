@@ -33,7 +33,7 @@ int allLedPins[10] = {RED0, RED1, RED2, RED3, RED4, GREEN0, GREEN1, GREEN2, GREE
 SR04 sr04 = SR04(ECHO, TRIG);
 
 // variables to calcultate the thresholds
-int distMax = 200;
+int distMax = 150;
 int nbrLed = 10;
 int pas = distMax/nbrLed;
 
